@@ -1,3 +1,8 @@
+package com.example.payroll;
+
+import java.io.*;
+
+public class EmployeePayrollInfo {
     public static void main(String[] args) {
         try {
             FileReader fileReader = new FileReader("PayDataFile");
