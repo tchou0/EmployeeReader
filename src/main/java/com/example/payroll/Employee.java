@@ -4,6 +4,7 @@ public class Employee {
     private String employeeId;
     private String name;
     private double hoursWorked;
+    private double payRate;
 
 
     @Override
@@ -40,8 +41,6 @@ public class Employee {
     public double getGrossPay(){
            return hoursWorked * payRate;
     }
-
-    private double payRate;
 
     public String getEmployeeId() {
         return employeeId;
